@@ -1,4 +1,5 @@
-GetService("ReplicatedStorage")
+local plr = game:GetService("Players").LocalPlayer
+local RS = game:GetService("ReplicatedStorage")
 local Net = require(RS.Packages.Network)
 local E = {}
 
